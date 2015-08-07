@@ -6,5 +6,8 @@
     "dependencies": {
       "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.15.0"
     }
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
   }
 }
