@@ -1,0 +1,5 @@
+*.suo
+*.user
+src/AureliaTypescript/node_modules/**
+src/AureliaTypescript/wwwroot/jspm_packages/**
+src/AureliaTypescript/scripts/typings/jspm_packages/**
