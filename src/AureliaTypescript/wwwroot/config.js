@@ -11,6 +11,8 @@ System.config({
 System.config({
   "map": {
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.15.0",
+    "bootstrap": "github:twbs/bootstrap@3.3.5",
+    "font-awesome": "npm:font-awesome@4.4.0",
     "github:aurelia/binding@0.8.5": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.9.1",
       "aurelia-metadata": "github:aurelia/metadata@0.7.2",
@@ -114,10 +116,16 @@ System.config({
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },
+    "github:twbs/bootstrap@3.3.5": {
+      "jquery": "github:components/jquery@2.1.4"
+    },
     "npm:core-js@0.9.18": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+    },
+    "npm:font-awesome@4.4.0": {
+      "css": "github:systemjs/plugin-css@0.1.13"
     }
   }
 });

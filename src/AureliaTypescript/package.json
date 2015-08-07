@@ -4,7 +4,9 @@
       "baseURL": "wwwroot"
     },
     "dependencies": {
-      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.15.0"
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.15.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "font-awesome": "npm:font-awesome@^4.4.0"
     }
   },
   "dependencies": {
